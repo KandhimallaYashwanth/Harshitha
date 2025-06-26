@@ -25,5 +25,5 @@ jobs:
         mkdir -p out
         javac -d out *.java
 
-    - name: Run Main class
-      run: java -cp out Main
+    - name: Run Demo class
+      run: java -cp out Demo
